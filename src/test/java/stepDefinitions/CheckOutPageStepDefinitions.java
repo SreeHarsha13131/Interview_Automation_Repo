@@ -27,7 +27,7 @@ public class CheckOutPageStepDefinitions {
 //
 //    }
     @Then("verify user has ability to enter promo code and place the order")
-public void verifyUserHasAbilityToEnterPromoCodeAndPlaceTheOrder() {
+    public void verifyUserHasAbilityToEnterPromoCodeAndPlaceTheOrder() {
     Assert.assertTrue(checkOutPage.VerifyPromoBtn());
     Assert.assertTrue(checkOutPage.VerifyPlaceOrder());
 }

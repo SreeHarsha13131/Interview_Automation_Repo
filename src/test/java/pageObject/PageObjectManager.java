@@ -27,4 +27,7 @@ public class PageObjectManager {
     public BasicSalenium getBasicSalenium(){
         return basicSalenium = new BasicSalenium(driver);
     }
+    public AmazonPage getAmazonPage(){
+        return new AmazonPage(driver);
+    }
 }
